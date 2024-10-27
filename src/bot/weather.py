@@ -20,7 +20,7 @@ def type_line(type: WeatherType):
 def weather_ui(weather: Weather) -> str:
     return f"""{type_line(weather.type)}
 [🌡] Температура: {weather.temperature} C°
-[💧] Влажность: {weather.humidity}
+[💧] Влажность: {weather.humidity}%
 [💨] Скорость ветра: {weather.wind_speed} м/с"""
 
 
